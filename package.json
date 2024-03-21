@@ -1,0 +1,26 @@
+{
+  "name": "tiny-image-compression-tool",
+  "version": "1.0.1",
+  "description": "A simple image compression tool built with Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/penix18/tiny-image-compression-tool"
+  },
+  "keywords": [
+    "image",
+    "compression",
+    "nodejs",
+    "sharp",
+    "imagemin"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.6",
+    "imagemin": "^7.0.1",
+    "sharp": "^0.28.3"
+  }
+}
